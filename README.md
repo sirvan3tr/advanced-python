@@ -11,5 +11,7 @@ line_profiler is a module for doing line-by-line profiling of functions. kernpro
 * In order to a profile a specific function, you add a decorator, `@profile`, to the desired function.
 * Run `kernprof -l YOURCODE.PY`, this will create a *.lprof file for you which can be viewed by running `python3 -m line_profiler YOURCODE.PY.lprof`
 
+### Resources
+* https://uwpce-pythoncert.github.io/SystemDevelopment/profiling.html
 
 

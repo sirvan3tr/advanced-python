@@ -36,7 +36,7 @@ class InventoryItem:
 ```
 You can make a dataclass instance immutable by passing `frozen=True` to the decorator. However, there is a performance cost to this.
 
-### ['__slots__'](https://docs.python.org/3/reference/datamodel.html#slots)
+### [__slots__](https://docs.python.org/3/reference/datamodel.html#slots)
 Explicitly declare data members and deny the creation of `__dict__` and `__wakeref__` in order to give you a performance boost (e.g. saving memory, and faster attribute access). More detailed explanation and usage can be found [here](https://stackoverflow.com/questions/472000/usage-of-slots). `__slots__` is a feature of `dataclass` as of Python 3.10.
 
 ```
@@ -110,7 +110,7 @@ line_profiler is a module for doing line-by-line profiling of functions. kernpro
 * TODO: Threads and processes
 
 # New features
-These are features that are new that one should be aware of in order to move on to a more current way of writing python codes.
+These are new(ish) features that one should be aware of in order to move on to a more current way of writing python codes.
 
 * [py3.8] **Walrus Operator:**  ':=' allows one to declare and assign a variable. `if (n := len(a)) > 10:`
 * etc.
@@ -121,5 +121,4 @@ TODO: Common environments for productivity.
 ### Resources
 * https://uwpce-pythoncert.github.io/SystemDevelopment/profiling.html
 * [Book] Serious Python by Julien Danjou
-
 

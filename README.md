@@ -122,3 +122,8 @@ TODO: Common environments for productivity.
 * https://uwpce-pythoncert.github.io/SystemDevelopment/profiling.html
 * [Book] Serious Python by Julien Danjou
 
+# Other
+
+* Python obfuscation
+  [https://pypi.org/project/pyarmor/](https://pypi.org/project/pyarmor/)
+
